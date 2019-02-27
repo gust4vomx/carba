@@ -11,10 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main');
+Route::get('/', function() {
+    return view('layouts.construction');
 });
 
-Route::get('/test', function() {
-    return view('test');
+// Route::get('/', function () {
+//     return view('main');
+// });
+
+Route::get('/nosotros',function() {
+    return view('layouts.about');
+});
+
+Route::get('/cursos', function() {
+    return view('layouts.courses');
+});
+
+Route::get('/curso-detalle', function() {
+    return 'Detalle del curso';
 });

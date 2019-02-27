@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="no-js">
 <head>
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,10 +44,10 @@
               </ul>     
             </div>
             <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-              <a href="tel:+525959535808"><span class="lnr lnr-phone-handset"></span> <span class="text">+52 (595) 95 3 5808</span></a>
-              <a href="mailto:tucolegio@carba.edu.mx"><span class="lnr lnr-envelope"></span> <span class="text">tucolegio@carba.edu.mx</span></a>     
+              <a href="tel:+525959534445"><span class="lnr lnr-phone-handset"></span> <span class="text">+52 (595) 95 3 44 45</span></a>
+              <a href="mailto:tucolegio@carba.edu.mx"><span class="lnr lnr-envelope"></span> <span class="text">atencion@carba.edu.mx</span></a>     
             </div>
-          </div>                  
+          </div>
         </div>
     </div>
       <div class="container main-menu">
@@ -58,7 +58,7 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Nosotros</a></li>
+              <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
               <li><a href="#">Cursos</a></li>
               <li><a href="#">Eventos</a></li>
               <li><a href="#">Galería</a></li>

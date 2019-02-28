@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function() {
-    return view('layouts.construction');
-});
+// Route::get('/', function() {
+//     return view('layouts.construction');
+// });
+
+Route::resource('/', 'SuscriberController');
+
+Route::get('/create', 'SuscriberController@create');
 
 // Route::get('/', function () {
 //     return view('main');

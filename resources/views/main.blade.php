@@ -10,13 +10,12 @@
         <div class="row fullscreen d-flex align-items-center justify-content-between">
           <div class="banner-content col-lg-9 col-md-12">
             <h1 class="text-uppercase">
-              La mejor educación
-              para un mundo mejor      
+              ¡Sólo con disciplina <br>lo logras!      
             </h1>
             <p class="pt-10 pb-10">
-              En la historia de la educación moderna, no hay probablemente un salto más grande hacia adelante que la construcción y el lanzamiento del conocimiento humano.
+              El Centro Educativo CARBA te da la más cordial bienvenida, nos complace informarte que nuestro periodo de Inscripciones y Re-inscripciones ¡ha comenzado!
             </p>
-            <a href="#" class="primary-btn text-uppercase">Agenda una cita</a>
+            <a href="{{ url('/inscripciones') }}" class="primary-btn text-uppercase">Quiero informes</a>
           </div>                    
         </div>
       </div>          
@@ -78,8 +77,8 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Nuestros cursos más demandados</h1>
-              <p>Cambiar y crecer para los tuyos esta en ti.</p>
+              <h1 class="mb-10">Tenemos cursos a tu medida</h1>
+              <p>Estar a la vanguardia es indispensable, aprovecha los cursos curriculares y extracurriculares.</p>
             </div>
           </div>
         </div>            
@@ -93,7 +92,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$150</h4>
+                  <h4>$150 MXN</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -114,18 +113,18 @@
                   <img class="img-fluid" src="img/p2.jpg" alt="">
                 </div>
                 <div class="meta d-flex justify-content-between">
-                  <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$150</h4>
+                  <p><span class="lnr lnr-users"></span> 30 <span class="lnr lnr-bubble"></span>10</p>
+                  <h4>Gratuito</h4>
                 </div>                  
               </div>
               <div class="details">
-                <a href="#">
+                <a href="{{ url('/cursos') }}">
                   <h4>
-                    Colores aplicados
+                    Nivelación Inglés - Español
                   </h4>
                 </a>
                 <p>
-                  When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  Este curso está diseñado por nuestros profesores certificados para regularizar el nivel de aprendizaje.
                 </p>
               </div>
             </div>  
@@ -136,18 +135,18 @@
                   <img class="img-fluid" src="img/p3.jpg" alt="">
                 </div>
                 <div class="meta d-flex justify-content-between">
-                  <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$150</h4>
+                  <p><span class="lnr lnr-users"></span> 40 <span class="lnr lnr-bubble"></span>15</p>
+                  <h4>$1,550 MXN</h4>
                 </div>                  
               </div>
               <div class="details">
-                <a href="#">
+                <a href="{{ url('cursos') }}">
                   <h4>
-                    Mecánica de aprendizaje
+                    Curso de Verano
                   </h4>
                 </a>
                 <p>
-                  When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  Estos cursos están diseñados para disfrutar de la convivencia, diversión y el aprendizaje por edades.
                 </p>
               </div>
             </div>  
@@ -158,18 +157,18 @@
                   <img class="img-fluid" src="img/p4.jpg" alt="">
                 </div>
                 <div class="meta d-flex justify-content-between">
-                  <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$150</h4>
+                  <p><span class="lnr lnr-users"></span> 25 <span class="lnr lnr-bubble"></span>18</p>
+                  <h4>$4,000 USD</h4>
                 </div>                  
               </div>
               <div class="details">
-                <a href="#">
+                <a href="{{ url('/cursos') }}">
                   <h4>
-                    Pedagogía
+                    Summer Camp
                   </h4>
                 </a>
                 <p>
-                  When television was young, there was a hugely popular show based on the still popular fictional characte                    
+                  Este curso te ayudará a vivir una experiencia de 2 semanas en el Extranjero, Inglaterra ¡te está esperando!                    
                 </p>
               </div>
             </div>

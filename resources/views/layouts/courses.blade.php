@@ -12,7 +12,7 @@
                     <h1 class="text-white">
                         Cursos 2019     
                     </h1>   
-                    <p class="text-white link-nav"><a href="index.html">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="courses.html"> Cursos</a></p>
+                    <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Cursos</a></p>
                 </div>  
             </div>
         </div>
@@ -207,7 +207,7 @@
                         </p>
                     </div>
                 </div>                              
-                <a href="#" class="primary-btn text-uppercase mx-auto">Load More Courses</a>                                                    
+                <a href="#" class="primary-btn text-uppercase mx-auto">Cargar más cursos</a>                                                    
             </div>
         </div>  
     </section>

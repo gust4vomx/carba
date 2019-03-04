@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bievenidos')
+@section('title', 'Bienvenidos')
 
 @section('content')
     <!-- start banner Area -->

@@ -38,8 +38,8 @@
             <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
               <ul>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              {{-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> --}}
               {{-- <li><a href="#"><i class="fa fa-behance"></i></a></li> --}}
               </ul>     
             </div>
@@ -53,35 +53,38 @@
       <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="{{ url('/') }}"><img src="img/logo.png" alt="" title="" /></a>
+            <a href="{{ url('/') }}"><img src="img/carba-logo2.png" width="147" height="30" alt="Logotipo CARBA" title="Sólo con disciplina lo logras" /></a>
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li><a href="{{ url('/') }}">Inicio</a></li>
               <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
+              <li><a href="{{ url('/preescolar') }}">Preescolar</a></li>
+              <li><a href="{{ url('/primaria') }}">Primaria</a></li>
+              <li><a href="{{ url('/inscripciones') }}">Inscripciones</a></li>
               <li><a href="{{ url('/cursos') }}">Cursos</a></li>
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Galería</a></li>
+              <li><a href="{{ url('/eventos') }}">Eventos</a></li>
+              <li><a href="{{ url('/instalaciones') }}">Instalaciones</a></li>
               {{-- <li class="menu-has-children"><a href="">Noticias</a>
                 <ul>
                   <li><a href="blog-home.html">Blog Home</a></li>
                   <li><a href="blog-single.html">Blog Single</a></li>
                 </ul>
               </li> --}} 
-              <li class="menu-has-children"><a href="">Secciones</a>
+              <li class="menu-has-children"><a href="">Talleres</a>
                 <ul>
-                    <li><a href="course-details.html">Detalles curso</a></li>   
-                    <li><a href="event-details.html">Detalles Eventos</a></li>   
-                    <li><a href="elements.html">Elementos</a></li>
+                    <li><a href="course-details.html">Sabatinos</a></li>   
+                    <li><a href="event-details.html">De tareas</a></li>   
+                    {{-- <li><a href="elements.html">Elementos</a></li>
                   <li class="menu-has-children"><a href="">Nivel 2 </a>
                     <ul>
                       <li><a href="#">Item Uno</a></li>
                       <li><a href="#">Item Dos</a></li>
                     </ul>
-                  </li>                             
+                  </li> --}}                             
                 </ul>
               </li>                                                     
-              <li><a href="contact.html">Contacto</a></li>
+              <li><a href="{{ url('/contacto')}}">Contacto</a></li>
             </ul>
           </nav><!-- #nav-menu-container -->            
         </div>
@@ -164,8 +167,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
 <!-- Link back to Reactium can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-6 col-sm-12 footer-social">
             <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
-            {{-- <a href="#"><i class="fa fa-dribbble"></i></a> --}}
             {{-- <a href="#"><i class="fa fa-behance"></i></a> --}}
           </div>
         </div>            

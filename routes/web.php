@@ -43,8 +43,20 @@ Route::get('/cursos', function() {
     return view('layouts.courses');
 });
 
-Route::get('/curso-detalle', function() {
-    return 'Detalle del curso';
+Route::get('/curso-detalle1', function() {
+    return 'Detalle del curso 1';
+});
+
+Route::get('/curso-detalle2', function() {
+    return 'Detalle del curso 2';
+});
+
+Route::get('/curso-detalle3', function() {
+    return 'Detalle del curso 3';
+});
+
+Route::get('/curso-detalle4', function() {
+    return 'Detalle del curso 4';
 });
 
 Route::get('/eventos', function () {

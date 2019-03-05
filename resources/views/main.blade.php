@@ -96,7 +96,7 @@
                 </div>                  
               </div>
               <div class="details">
-                <a href="#">
+                <a href="{{ url('/curso-detalle1') }}">
                   <h4>
                     Aprende juegos
                   </h4>
@@ -118,7 +118,7 @@
                 </div>                  
               </div>
               <div class="details">
-                <a href="{{ url('/cursos') }}">
+                <a href="{{ url('/curso-detalle2') }}">
                   <h4>
                     Nivelación Inglés - Español
                   </h4>
@@ -140,7 +140,7 @@
                 </div>                  
               </div>
               <div class="details">
-                <a href="{{ url('cursos') }}">
+                <a href="{{ url('/curso-detalle3') }}">
                   <h4>
                     Curso de Verano
                   </h4>
@@ -162,7 +162,7 @@
                 </div>                  
               </div>
               <div class="details">
-                <a href="{{ url('/cursos') }}">
+                <a href="{{ url('/curso-detalle4') }}">
                   <h4>
                     Summer Camp
                   </h4>
@@ -172,7 +172,7 @@
                 </p>
               </div>
             </div>
-            <div class="single-popular-carusel">
+            {{-- <div class="single-popular-carusel">
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg"></div>  
@@ -259,16 +259,15 @@
                   When television was young, there was a hugely popular show based on the still popular fictional characte                    
                 </p>
               </div>
-            </div>              
+            </div> --}}              
           </div>
         </div>
       </div>  
     </section>
-    <!-- End popular-course Area -->
-    
+    <!-- End popular-course Area --> 
 
     <!-- Start search-course Area -->
-    <section class="search-course-area relative">
+    {{-- <section class="search-course-area relative">
       <div class="overlay overlay-bg"></div>
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -317,18 +316,34 @@
           </div>
         </div>
       </div>  
-    </section>
+    </section> --}}
     <!-- End search-course Area -->
     
-  
+    <!-- Start cta-one Area -->
+    <section class="cta-one-area relative section-gap">
+      <div class="container">
+        <div class="overlay overlay-bg"></div>
+        <div class="row justify-content-center">
+          <div class="wrap">
+            <h1 class="text-white">Asociado CARBA</h1>
+            <p>
+              Cada ciclo escolar estamos en busca de nuevos talentos de valor, está es la oportunidad para que formes parte de nuestro equipo de trabajo.
+            </p>
+            <a class="primary-btn wh" href="#">Solicitud de forma</a>               
+          </div>          
+        </div>
+      </div>  
+    </section>
+    <!-- End cta-one Area -->
+
     <!-- Start upcoming-event Area -->
     <section class="upcoming-event-area section-gap">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Eventos próximos del Instituto</h1>
-              <p>If you are a serious astronomy fanatic like a lot of us</p>
+              <h1 class="mb-10">Eventos próximos del Centro Educativo</h1>
+              <p>Disfruta de un excelente ambiente y conoce más sobre nuestro alumnado.</p>
             </div>
           </div>
         </div>                
@@ -339,6 +354,42 @@
                 <img class="img-fluid" src="img/e1.jpg" alt="">
               </div>
               <div class="detials col-12 col-md-6">
+                <p>28 de Marzo, 2019</p>
+                <a href="#"><h4>El universo a través de la educación</h4></a>
+                <p>
+                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                </p>
+              </div>
+            </div>
+            <div class="single-carusel row align-items-center">
+              <div class="col-12 col-md-6 thumb">
+                <img class="img-fluid" src="img/e2.jpg" alt="">
+              </div>
+              <div class="detials col-12 col-md-6">
+                <p>10 de Mayo, 2019</p>
+                <a href="#"><h4>El universo a través de la educación</h4></a>
+                <p>
+                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                </p>
+              </div>
+            </div>  
+            {{-- <div class="single-carusel row align-items-center">
+              <div class="col-12 col-md-6 thumb">
+                <img class="img-fluid" src="img/e1.jpg" alt="">
+              </div>
+              <div class="detials col-12 col-md-6">
+                <p>25th February, 2018</p>
+                <a href="#"><h4>El universo a través de la educación</h4></a>
+                <p>
+                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+                </p>
+              </div>
+            </div>  
+            <div class="single-carusel row align-items-center">
+              <div class="col-12 col-md-6 thumb">
+                <img class="img-fluid" src="img/e1.jpg" alt="">
+              </div>
+              <div class="detials col-12 col-md-6">
                 <p>25th February, 2018</p>
                 <a href="#"><h4>El universo a través de la educación</h4></a>
                 <p>
@@ -369,43 +420,7 @@
                   For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
                 </p>
               </div>
-            </div>  
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="">
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>El universo a través de la educación</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e2.jpg" alt="">
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>El universo a través de la educación</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-                </p>
-              </div>
-            </div>  
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="">
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>El universo a través de la educación</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-                </p>
-              </div>
-            </div>                                            
+            </div> --}}                                            
           </div>
         </div>
       </div>  
@@ -448,7 +463,7 @@
                 Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
               </p>
             </div>
-            <div class="single-review item">
+            {{-- <div class="single-review item">
               <div class="title justify-content-start d-flex">
                 <a href="#"><h4>Arantxa Gómez</h4></a>
                 <div class="star">
@@ -507,32 +522,15 @@
               <p>
                 Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
               </p>
-            </div>                                                       
+            </div> --}}                                                       
           </div>
         </div>
       </div>  
     </section>
     <!-- End review Area -->  
     
-    <!-- Start cta-one Area -->
-    <section class="cta-one-area relative section-gap">
-      <div class="container">
-        <div class="overlay overlay-bg"></div>
-        <div class="row justify-content-center">
-          <div class="wrap">
-            <h1 class="text-white">Asociado CARBA</h1>
-            <p>
-              Cada ciclo escolar estamos en busca de nuevos talentos de valor, está es la oportunidad para que formes parte de nuestro equipo de trabajo.
-            </p>
-            <a class="primary-btn wh" href="#">Solicitud de forma</a>               
-          </div>          
-        </div>
-      </div>  
-    </section>
-    <!-- End cta-one Area -->
-
     <!-- Start blog Area -->
-    <section class="blog-area section-gap" id="blog">
+    {{-- <section class="blog-area section-gap" id="blog">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
@@ -597,9 +595,8 @@
           </div>              
         </div>
       </div>  
-    </section>
+    </section> --}}
     <!-- End blog Area -->      
-    
 
     <!-- Start cta-two Area -->
     <section class="cta-two-area">

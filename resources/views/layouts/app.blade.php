@@ -62,28 +62,28 @@
               <li><a href="{{ url('/preescolar') }}">Preescolar</a></li>
               <li><a href="{{ url('/primaria') }}">Primaria</a></li>
               <li><a href="{{ url('/inscripciones') }}">Inscripciones</a></li>
-              <li><a href="{{ url('/cursos') }}">Cursos</a></li>
+              {{-- <li><a href="{{ url('/cursos') }}">Cursos</a></li>
               <li><a href="{{ url('/eventos') }}">Eventos</a></li>
-              <li><a href="{{ url('/instalaciones') }}">Instalaciones</a></li>
+              <li><a href="{{ url('/instalaciones') }}">Instalaciones</a></li> --}}
               {{-- <li class="menu-has-children"><a href="">Noticias</a>
                 <ul>
                   <li><a href="blog-home.html">Blog Home</a></li>
                   <li><a href="blog-single.html">Blog Single</a></li>
                 </ul>
               </li> --}} 
-              <li class="menu-has-children"><a href="">Talleres</a>
+              {{-- <li class="menu-has-children"><a href="">Talleres</a>
                 <ul>
                     <li><a href="course-details.html">Sabatinos</a></li>   
                     <li><a href="event-details.html">De tareas</a></li>   
-                    {{-- <li><a href="elements.html">Elementos</a></li>
+                    <li><a href="elements.html">Elementos</a></li>
                   <li class="menu-has-children"><a href="">Nivel 2 </a>
                     <ul>
                       <li><a href="#">Item Uno</a></li>
                       <li><a href="#">Item Dos</a></li>
                     </ul>
-                  </li> --}}                             
+                  </li>                             
                 </ul>
-              </li>                                                     
+              </li> --}}                                                     
               <li><a href="{{ url('/contacto')}}">Contacto</a></li>
             </ul>
           </nav><!-- #nav-menu-container -->            
@@ -99,45 +99,45 @@
         <div class="row">
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h4>Top Products</h4>
+              <h4>Concursos</h4>
               <ul>
-                <li><a href="#">¿Niños hiperáctivos?</a></li>
-                <li><a href="#">Escuela en casa</a></li>
+                <li><a href="https://www.amc.edu.mx/amc/index.php?option=com_content&view=article&id=83&Itemid=80" target="_blank">Cótorra matemática</a></li>
+                {{-- <li><a href="#">Escuela en casa</a></li>
                 <li><a href="#">Valores en la familia</a></li>
-                <li><a href="#">Dieta infantil</a></li>
+                <li><a href="#">Dieta infantil</a></li> --}}
               </ul>               
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h4>Quick links</h4>
+              <h4>Reglamento</h4>
               <ul>
-                <li><a href="#">Empleos</a></li>
-                <li><a href="#">Políticas de marca</a></li>
+                <li><a href="#">Reglamento interno</a></li>
+                {{-- <li><a href="#">Políticas de marca</a></li>
                 <li><a href="#">Relaciones comerciales</a></li>
-                <li><a href="#">Términos de servicio</a></li>
+                <li><a href="#">Términos de servicio</a></li> --}}
               </ul>               
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h4>Features</h4>
+              <h4>Comunicados</h4>
               <ul>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Brand Assets</a></li>
+                <li><a href="pdfs/aviso-de-privacidad.pdf" target="_blank">Aviso de Privacidad</a></li>
+                {{-- <li><a href="#">Brand Assets</a></li>
                 <li><a href="#">Investor Relations</a></li>
-                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Terms of Service</a></li> --}}
               </ul>               
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h4>Resources</h4>
+              <h4>Recursos</h4>
               <ul>
-                <li><a href="#">Guías</a></li>
-                <li><a href="#">Investigación</a></li>
+                <li><a href="#">Guías escolares</a></li>
+                {{-- <li><a href="#">Investigación</a></li>
                 <li><a href="#">Expertos</a></li>
-                <li><a href="#">Agencia digital</a></li>
+                <li><a href="#">Agencia digital</a></li> --}}
               </ul>               
             </div>
           </div>                                    
@@ -163,7 +163,7 @@
         </div>
         <div class="footer-bottom row align-items-center justify-content-between">
           <p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Reactium can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Centro Educativo CARBA code made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://reactium.com" target="_blank">Reactium</a>
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Centro Educativo CARBA <i class="fa fa-code" aria-hidden="true"></i> made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://reactium.com" target="_blank">Reactium</a>
 <!-- Link back to Reactium can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-6 col-sm-12 footer-social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -174,19 +174,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
         </div>            
       </div>
     </footer> 
-    <!-- End footer Area -->  
-
-
+    <!-- End footer Area -->
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>      
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-      <script src="js/easing.min.js"></script>      
+    <script src="js/easing.min.js"></script>      
     <script src="js/hoverIntent.js"></script>
     <script src="js/superfish.min.js"></script> 
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script> 
-      <script src="js/jquery.tabs.min.js"></script>           
+    <script src="js/jquery.tabs.min.js"></script>           
     <script src="js/jquery.nice-select.min.js"></script>  
     <script src="js/owl.carousel.min.js"></script>                  
     <script src="js/mail-script.js"></script> 

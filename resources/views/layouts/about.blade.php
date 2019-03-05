@@ -139,9 +139,8 @@
     </section>
     <!-- End course-mission Area -->
     
-
     <!-- Start search-course Area -->
-    <section class="search-course-area relative">
+    {{-- <section class="search-course-area relative">
         <div class="overlay overlay-bg"></div>
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -190,11 +189,11 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> --}}
     <!-- End search-course Area -->         
 
     <!-- Start review Area -->
-    <section class="review-area section-gap relative">
+    {{-- <section class="review-area section-gap relative">
         <div class="overlay overlay-bg"></div>
         <div class="container">             
             <div class="row">
@@ -323,11 +322,11 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> --}}
     <!-- End review Area -->                  
 
     <!-- Start cta-two Area -->
-    <section class="cta-two-area">
+    {{-- <section class="cta-two-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 cta-left">
@@ -338,6 +337,6 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> --}}
     <!-- End cta-two Area -->
 @endsection

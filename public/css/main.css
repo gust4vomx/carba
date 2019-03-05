@@ -2362,7 +2362,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-    background: #2327a2;
+    /*background: #2327a2;*/
+    background: #1d9dd9;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
@@ -2516,7 +2517,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content .primary-btn {
-    background-color: #2327a2;
+    /*background-color: #2327a2;*/
+    background-color: #1d9dd9;
     color: #fff;
     font-weight: 600;
     font-size: 14px
@@ -2569,11 +2571,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature:hover .title {
-    background: #2327a2
+    /*background: #2327a2*/
+    background: #34a83b    
 }
 
 .single-feature:hover .desc-wrap a {
-    color: #2327a2
+    /*color: #2327a2*/
+    color: #34a83b
 }
 
 @media (max-width: 991px) {
@@ -3028,7 +3032,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-two-area {
-    background: #2327a2;
+    /* background: #2327a2;*/    
+    background: #843086;     
     padding: 90px 0px
 }
 
@@ -3155,7 +3160,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .accordion>dt>a.active {
     color: #fff;
     border-color: #ddd;
-    background: #2327a2;
+    background: #f08815;
+    /*background: #2327a2;*/
     cursor: default
 }
 
@@ -4882,7 +4888,7 @@ dl.toggle.time-line:before {
 .single-footer-widget .btn {
     font-size: 1.2rem;
     border-radius: 0;
-    background: #2327a2;
+    background: #34a83b;
     color: #fff
 }
 
@@ -4974,4 +4980,67 @@ dl.toggle.time-line:before {
 
 .footer-bottom .footer-social a:hover {
     background-color: #2327a2
+}
+
+
+
+
+
+/*------------------------------------*\
+  #UTILITIES-COLORS
+\*------------------------------------*/
+
+.bg-blue-marine {
+    background: #2327a2;
+    color: #2327a2;
+}
+
+.bg-blue-carba {
+    background: #22a0f0;
+    color: #22a0f0;
+}
+
+.bg-yellow {
+    background: #fee000;
+    color: #fee000;
+}
+
+.bg-green-organic {
+    background: #a6d900;
+    color: #a6d900;
+}
+
+.bg-green {
+    background: #34a83b;
+    color: #34a83b;
+}
+
+.bg-red {
+    background: #e10f1c;
+    color: #e10f1c;
+}
+
+.bg-purple {
+    background: #402c80;
+    color: #402c80;
+}
+
+.bg-blue {
+    background: #1d9dd9;
+    color: #1d9dd9;
+}
+
+.bg-purple-carba {
+    background: #843086;
+    color: #843086;
+}
+
+.bg-pink {
+    background: #e40678;
+    color: #e40678;
+}
+
+.bg-orange {
+    background: #f08815;
+    color: #f08815;
 }

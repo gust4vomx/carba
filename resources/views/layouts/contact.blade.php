@@ -32,7 +32,7 @@
                         <div class="contact-details">
                             <h5>San Andrés Chiautla</h5>
                             <p>
-                                4343 San Antonio C.P. 57894
+                                Calle San José S/N, Barrio San Francisco Chiautla, Estado de México.
                             </p>
                         </div>
                     </div>

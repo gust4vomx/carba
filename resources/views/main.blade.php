@@ -98,7 +98,7 @@
               <div class="details">
                 <a href="{{ url('/curso-detalle1') }}">
                   <h4>
-                    Aprende juegos
+                    De verano CARBA
                   </h4>
                 </a>
                 <p>
@@ -120,7 +120,7 @@
               <div class="details">
                 <a href="{{ url('/curso-detalle2') }}">
                   <h4>
-                    Nivelación Inglés - Español
+                    Summer Camp ENGLAND
                   </h4>
                 </a>
                 <p>
@@ -142,7 +142,7 @@
               <div class="details">
                 <a href="{{ url('/curso-detalle3') }}">
                   <h4>
-                    Curso de Verano
+                    De regularización Inglés
                   </h4>
                 </a>
                 <p>
@@ -164,7 +164,7 @@
               <div class="details">
                 <a href="{{ url('/curso-detalle4') }}">
                   <h4>
-                    Summer Camp
+                    Nivelación de Alumnos
                   </h4>
                 </a>
                 <p>

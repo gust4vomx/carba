@@ -2466,12 +2466,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/banner-bg.jpg) right;
+    background: url(../img/bg-banner.jpg) center no-repeat;
     background-size: cover
 }
 
 .banner-area .overlay-bg {
-    background-color: rgba(4, 9, 30, 0.8)
+    background-color: rgba(4, 9, 30, 0.4)
 }
 
 @media (max-width: 767px) {
@@ -3063,8 +3063,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-    background: url(../img/top-banner.jpg) right no-repeat;
-    background-size: cover
+    background: url(../img/top-banner.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .about-content {

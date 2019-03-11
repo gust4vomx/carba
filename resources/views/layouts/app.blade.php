@@ -53,7 +53,7 @@
       <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="{{ url('/') }}"><img src="img/carba-logo2.png" width="147" height="30" alt="Logotipo CARBA" title="Sólo con disciplina lo logras" /></a>
+            <a href="{{ url('/') }}"><img src="img/carba-logo.png" width="147" height="30" alt="Logotipo CARBA" title="Sólo con disciplina lo logras" /></a>
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">

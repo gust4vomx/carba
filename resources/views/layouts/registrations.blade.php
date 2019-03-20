@@ -4,13 +4,13 @@
 
 @section('content')
     <!-- start banner Area -->
-    <section class="banner-area relative about-banner" id="home">   
+    <section class="banner-area relative inscripciones-banner" id="home">   
         <div class="overlay overlay-bg"></div>
         <div class="container">             
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="about-content col-lg-12">
                     <h1 class="text-white">
-                        Inscripciones 2019     
+                        {{-- Inscripciones 2019  --}}    
                     </h1>   
                     <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Inscripciones</a></p>
                 </div>  
@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <blockquote class="generic-blockquote">
-                            “Cupo limitado, recuerda todo incluido en el costo total de la inscripción, porque tener una educación de valor y calidad siempre será nuestra prioridad. ¿Cómo obtengo el Kit CARBA? Si preinscribes a tu pequeñ@ con el <b>50%</b> antes del 22 de Marzo ¡así de fácil! recibes nuesto kit escolar más trámites de Cambridge y materiales escolares, todo esto se detalla a continuación.” 
+                            “Cupo limitado, recuerda todo incluido en el costo total de la inscripción, porque tener una educación de valor y calidad siempre será nuestra prioridad. ¿Cómo obtengo el Kit CARBA? Si preinscribes a tu pequeñ@ con un anticipo de <b>$ 4,000.00 MXN</b> antes del 22 de Marzo ¡así de fácil! recibes nuesto kit escolar + <b>trámites de Cambridge</b> y <b> materiales escolares</b>, todo esto se detalla a continuación.” 
                         </blockquote>
                     </div>
                 </div>

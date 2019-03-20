@@ -15,7 +15,7 @@ class SuscriberController extends Controller
     public function index()
     {
         //
-        return view('layouts.construction');
+        return view('main');
         // return 'Desde el controlador para los suscriptores';
     }
 
@@ -27,7 +27,7 @@ class SuscriberController extends Controller
     public function create()
     {
         //
-        return view('layouts.construction');
+        return view('main');
     }
 
     /**

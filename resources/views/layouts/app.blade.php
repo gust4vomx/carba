@@ -16,7 +16,9 @@
   <!-- Site Title -->
   <title>Centro Educativo CARBA - @yield('title')</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+  {{-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> --}}
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Open+Sans:400,600,700" rel="stylesheet"> 
     <!--
     CSS 
     ============================================= -->
@@ -45,7 +47,7 @@
             </div>
             <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
               <a href="tel:+525959534445"><span class="lnr lnr-phone-handset"></span> <span class="text">+52 (595) 95 3 44 45</span></a>
-              <a href="mailto:tucolegio@carba.edu.mx"><span class="lnr lnr-envelope"></span> <span class="text">atencion@carba.edu.mx</span></a>     
+              <a href="mailto:atencion@carba.edu.mx"><span class="lnr lnr-envelope"></span> <span class="text">atencion@carba.edu.mx</span></a>     
             </div>
           </div>
         </div>
@@ -57,11 +59,11 @@
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li><a href="{{ url('/') }}">Inicio</a></li>
-              <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
-              <li><a href="{{ url('/preescolar') }}">Preescolar</a></li>
-              <li><a href="{{ url('/primaria') }}">Primaria</a></li>
-              <li><a href="{{ url('/inscripciones') }}">Inscripciones</a></li>
+              <li><a class="bg-pink nav-link" href="{{ url('/') }}">Inicio</a></li>
+              <li><a class="bg-blue nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
+              <li><a class="bg-orange nav-link" href="{{ url('/preescolar') }}">Preescolar</a></li>
+              <li><a class="bg-purple-carba nav-link" href="{{ url('/primaria') }}">Primaria</a></li>
+              <li><a class="bg-red nav-link" href="{{ url('/inscripciones') }}">Inscripciones</a></li>
               {{-- <li><a href="{{ url('/cursos') }}">Cursos</a></li>
               <li><a href="{{ url('/eventos') }}">Eventos</a></li>
               <li><a href="{{ url('/instalaciones') }}">Instalaciones</a></li> --}}
@@ -84,7 +86,7 @@
                   </li>                             
                 </ul>
               </li> --}}                                                     
-              <li><a href="{{ url('/contacto')}}">Contacto</a></li>
+              <li><a class="bg-green-organic nav-link" href="{{ url('/contacto')}}">Contacto</a></li>
             </ul>
           </nav><!-- #nav-menu-container -->            
         </div>
@@ -146,9 +148,10 @@
               <h4>Boletín</h4>
               <p>Entérate de lo nuevo</p>
               <div class="" id="mc_embed_signup">
-                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+                 <form action="/" method="POST">
+                  @csrf
                   <div class="input-group">
-                    <input type="text" class="form-control" name="EMAIL" placeholder="Escribe tu correo electrónico" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+                    <input type="email" class="form-control" name="email" placeholder="Escribe tu correo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
                     <div class="input-group-btn">
                       <button class="btn btn-default" type="submit">
                         <span class="lnr lnr-arrow-right"></span>

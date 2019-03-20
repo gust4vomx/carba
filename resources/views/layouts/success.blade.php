@@ -1,70 +1,35 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+@extends('layouts.app')
 
-  <title>Centro Educativo CARBA - Registrado</title>
+@section('title', 'Te has suscrito a nuestro boletín')
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-
-</head>
-<body>
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100 text-center">
-        <div class="col-12 my-auto">
-          <div class="logo">
-            <img src="img/carba-logo.png" alt="CARBA Logotipo" width="165">
-          </div>
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Gracias!</h1>
-            <p class="mb-5">Ahora estás registrado, te estaremos enviando un <strong>correo</strong> en breve.</p>
-            <a class="btn btn-primary" href="{{ url('/create') }}">Ir al inicio</a>
-          </div>
+@section('content')
+  <!-- start banner Area -->
+    <section class="banner-area relative newsletter-banner" id="home">   
+        <div class="overlay overlay-bg"></div>
+        <div class="container">             
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        ¡Gracias por suscribirte!                
+                    </h1>   
+                    <p class="text-white link-nav"><a href="{{ url('/') }}}">Inicio </a>{{--   <span class="lnr lnr-arrow-right"></span>  <a href="#"> Nosotros</a> --}}</p>
+                </div>  
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
-</body>
-</html>
+    </section>
+
+    <!-- End banner Area -->
+    <section class="info-area pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                {{-- <div class="col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="img/about-img.jpg" alt="">
+                </div> --}}
+                <div class="col col-md text-center">
+                    <h1 class="mt-4">Pronto te enviaremos un mail</h1>
+                    <p class="pt-4 pb-4">El Centro Educativo CARBA a través de este boletín te mantendrá informado de todas las noticias y novedades ¡No te lo puedes perder! Te queremos.</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+@endsection

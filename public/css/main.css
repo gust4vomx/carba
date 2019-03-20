@@ -37,7 +37,8 @@
 
 body {
     color: #777;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
@@ -2070,7 +2071,7 @@ h6 {
 .main-menu {
     padding-bottom: 20px;
     padding-top: 20px;
-    border-bottom: 1px solid #39353e
+    /* border-bottom: 1px solid #39353e */
 }
 
 #header {
@@ -2189,18 +2190,20 @@ h6 {
 }
 
 .nav-menu a {
-    padding: 0 8px 0px 8px;
+    /*padding: 0 8px 0px 8px;*/
+    padding: 12px 12px 9px 12px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none
 }
 
 .nav-menu li:hover>a {
-    color: #2327a2
+    /*color: #2327a2*/
+    color: white;
 }
 
 .nav-menu>li {
@@ -2518,15 +2521,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content .primary-btn {
     /*background-color: #2327a2;*/
-    background-color: #1d9dd9;
+    /*background-color: #1d9dd9;*/
+    background-color: #a6d900;
+    /*color: #fff;*/
     color: #fff;
     font-weight: 600;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .banner-content .primary-btn:hover {
-    background-color: #fff;
-    color: #2327a2
+    /*background-color: #fff;*/
+    background-color: #34a83b;
+    color: #fff;
 }
 
 .feature-area {
@@ -3866,7 +3872,8 @@ dl.toggle.time-line:before {
 }
 
 .gallery-area .single-imgs .overlay-bg {
-    background: rgba(247, 99, 27, 0.85);
+    /*background: rgba(247, 99, 27, 0.85);*/
+    background: rgba(240, 136, 21, 0.85);
     opacity: 0;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -5043,4 +5050,72 @@ dl.toggle.time-line:before {
 .bg-orange {
     background: #f08815;
     color: #f08815;
+}
+
+
+
+
+
+.newsletter-banner {
+    background: url(../img/top-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.p-white {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.main-nav {}
+.nav-listItem {}
+
+.nav-link {
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #fee000;
+    color: white;
+}
+
+
+
+
+
+.title-hero {
+    font-family: Baloo;
+    font-size: 3em;
+}
+
+
+
+
+
+.about-banner {
+    background: url(../img/nosotros-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.preescolar-banner {
+    background: url(../img/preescolar-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.primaria-banner {
+    background: url(../img/primaria-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.inscripciones-banner {
+    background: url(../img/inscripciones-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.contacto-banner {
+    background: url(../img/contacto-banner.jpg) center no-repeat;
+    background-size: cover;
 }

@@ -11,13 +11,13 @@
 |
 */
 
-// Route::resource('/', 'SuscriberController');
+Route::resource('/', 'SuscriberController');
 
-// Route::get('/create', 'SuscriberController@create');
+Route::get('/create', 'SuscriberController@create');
 
-Route::get('/', function () {
-    return view('main');
-});
+// Route::get('/', function () {
+//     return view('main');
+// });
 
 Route::get('/nosotros',function() {
     return view('layouts.about');
@@ -43,20 +43,20 @@ Route::get('/cursos', function() {
     return view('layouts.courses');
 });
 
-Route::get('/curso-detalle1', function() {
-    return 'Detalle del curso 1';
+Route::get('/de-verano-carba', function() {
+    return view('courses.summer-carba');
 });
 
-Route::get('/curso-detalle2', function() {
-    return 'Detalle del curso 2';
+Route::get('/summer-camp-england-2019', function() {
+    return view('courses.summer-camp');
 });
 
-Route::get('/curso-detalle3', function() {
-    return 'Detalle del curso 3';
+Route::get('/regularizacion-de-ingles', function() {
+    return view('courses.english-regularization');
 });
 
-Route::get('/curso-detalle4', function() {
-    return 'Detalle del curso 4';
+Route::get('/nivelacion-de-alumnos', function() {
+    return view('courses.levelling-of-students');
 });
 
 Route::get('/eventos', function () {

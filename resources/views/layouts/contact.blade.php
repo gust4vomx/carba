@@ -4,13 +4,13 @@
 
 @section('content')
     <!-- start banner Area -->
-    <section class="banner-area relative about-banner" id="home">   
+    <section class="banner-area relative contacto-banner" id="home">   
         <div class="overlay overlay-bg"></div>
         <div class="container">             
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="about-content col-lg-12">
                     <h1 class="text-white">
-                        Contáctanos              
+                        {{-- Contáctanos --}}              
                     </h1>   
                     <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ url('/contacto') }}"> Contacto</a></p>
                 </div>  

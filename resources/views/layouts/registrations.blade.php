@@ -12,7 +12,7 @@
                     <h1 class="text-white">
                         {{-- Inscripciones 2019  --}}    
                     </h1>   
-                    <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Inscripciones</a></p>
+                    {{-- <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Inscripciones</a></p> --}}
                 </div>  
             </div>
         </div>

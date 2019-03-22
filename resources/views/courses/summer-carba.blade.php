@@ -375,7 +375,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$ 1,550 MXN*</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -419,7 +419,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 40 <span class="lnr lnr-bubble"></span>15</p>
-                  <h4>Sin costo</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -441,7 +441,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 25 <span class="lnr lnr-bubble"></span>18</p>
-                  <h4>Sin costo</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">

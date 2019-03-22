@@ -36,10 +36,10 @@
 }
 
 body {
-    color: #777;
+    color: #222;
     font-family: 'Open Sans', sans-serif;
     /*font-family: "Poppins", sans-serif;*/
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.625em;
     position: relative
@@ -3019,7 +3019,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .cta-one-area h1,
 .cta-one-area p {
-    position: relative
+    position: relative;
+    /* Add a bottom size*/
+    bottom: 20px;
 }
 
 .cta-one-area p {
@@ -3065,7 +3067,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .link-nav {
     margin-top: 10px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    position: relative;
+    top: 38px;
 }
 
 .about-banner {
@@ -5091,6 +5095,22 @@ dl.toggle.time-line:before {
     font-size: 3em;
 }
 
+    .f-28em {
+        font-size: 2.8em;
+    }
+
+    .f-26em {
+        font-size: 2.6em;
+    }
+
+    .f-24em {
+        font-size: 2.4em;
+    }
+
+    .f-12em {
+        font-size: 1.2em;
+        line-height: 1.25em;
+    }
 
 
 

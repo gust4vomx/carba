@@ -10,7 +10,7 @@
         <div class="row fullscreen d-flex align-items-center justify-content-between">
           <div class="banner-content col-lg-9 col-md-12">
             <h1 class="title-hero text-uppercase">
-              ¡Sólo con disciplina <br>lo logras!      
+              La mejor escuela <br>en Texcoco ¡para tus hijos!      
             </h1>
             <p class="pt-10 pb-10 p-white">
               El Centro Educativo CARBA te da la más cordial bienvenida, nos complace informarte que nuestro periodo de Inscripciones y Re-inscripciones ¡ha comenzado!
@@ -33,7 +33,7 @@
               </div>
               <div class="desc-wrap">
                 <p>
-                  Nos encantan los retos y generación tras generación renovamos cursos ¡Que esperas!
+                  Nos encantan los retos y generación tras generación renovamos cursos. <br> ¡Que esperas!
                 </p>
                 <a href="#">Unirse ahora</a>                  
               </div>
@@ -46,7 +46,7 @@
               </div>
               <div class="desc-wrap">
                 <p>
-                  Más de 10 años como centro educativo
+                  Más de 10 años como Centro Educativo
                   comprometido con la formación académica.
                 </p>
                 <a href="#">Unirse ahora</a>                  
@@ -60,7 +60,7 @@
               </div>
               <div class="desc-wrap">
                 <p>
-                  Un ambiente agradable con instalaciones de primer nivel y sobre todo ¡diversión! 
+                  Un ambiente agradable con instalaciones de primer nivel y <br>sobre todo ¡diversión! 
                 </p>
                 <a href="#">Unirse ahora</a>                  
               </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-                  <h4>$ 1,550 MXN*</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -136,7 +136,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 40 <span class="lnr lnr-bubble"></span>15</p>
-                  <h4>Sin costo</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="meta d-flex justify-content-between">
                   <p><span class="lnr lnr-users"></span> 25 <span class="lnr lnr-bubble"></span>18</p>
-                  <h4>Sin costo</h4>
+                  <h4>Informes</h4>
                 </div>                  
               </div>
               <div class="details">
@@ -375,7 +375,7 @@
             </div>  
             <div class="single-carusel row align-items-center">
               <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="">
+                <img class="img-fluid" src="img/e3.jpg" alt="">
               </div>
               <div class="detials col-12 col-md-6">
                 <p>20 de Febrero, 2019</p>
@@ -387,7 +387,7 @@
             </div>  
             <div class="single-carusel row align-items-center">
               <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="">
+                <img class="img-fluid" src="img/e4.jpg" alt="">
               </div>
               <div class="detials col-12 col-md-6">
                 <p>16 de Abril, 2019</p>
@@ -399,7 +399,7 @@
             </div>
             <div class="single-carusel row align-items-center">
               <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e2.jpg" alt="">
+                <img class="img-fluid" src="img/e5.jpg" alt="">
               </div>
               <div class="detials col-12 col-md-6">
                 <p>30 de Abril, 2019</p>
@@ -411,13 +411,13 @@
             </div>  
             <div class="single-carusel row align-items-center">
               <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="">
+                <img class="img-fluid" src="img/e6.jpg" alt="">
               </div>
               <div class="detials col-12 col-md-6">
                 <p>13 de Mayo, 2019</p>
                 <a href="#"><h4>Demostración de Artes</h4></a>
                 <p>
-                  Nuestra alfombra roja se viste de gala, la fecha más esperada del ciclo escolar. Reserva tu pase doble para este macro evento ¡15 días de talento y diversión!
+                  Nuestra alfombra roja se viste de gala, la fecha más esperada del ciclo escolar. Reserva tu pase doble para este macro evento ¡Un mes de talento y diversión!
                 </p>
               </div>
             </div>                                            

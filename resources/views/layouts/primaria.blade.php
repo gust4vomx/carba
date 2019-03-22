@@ -12,7 +12,7 @@
                     <h1 class="text-white">
                         {{-- Nivel Primaria      --}}
                     </h1>   
-                    <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Primaria</a></p>
+                    {{-- <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Primaria</a></p> --}}
                 </div>  
             </div>
         </div>
@@ -40,71 +40,71 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <a href="img/gallery/g1.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g1.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g1.jpg" alt="">     
+                                <img class="img-fluid" src="img/gallery-primary/g1.jpg" alt="">     
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-5">
-                    <a href="img/gallery/g2.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g2.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g2.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g2.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g3.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g3.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g3.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g3.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g4.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g4.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">                  
-                                <img class="img-fluid" src="img/gallery/g4.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g4.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g5.jpg"  class="img-gal">
+                    <a href="img/gallery-primary/g5.jpg"  class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">                  
-                                <img class="img-fluid" src="img/gallery/g5.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g5.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-5">
-                    <a href="img/gallery/g6.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g6.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g6.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g6.jpg" alt="">             
                             </div>
                         </div>
                      </a>
                 </div>
                 <div class="col-lg-7">
-                    <a href="img/gallery/g7.jpg" class="img-gal">
+                    <a href="img/gallery-primary/g7.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div  class="relative">                 
-                                <img class="img-fluid" src="img/gallery/g7.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-primary/g7.jpg" alt="">             
                             </div>
                         </div>
                     </a>
@@ -119,7 +119,7 @@
         <div class="container">
             <h3 class="text-heading title-hero text-center">Logros destacados</h3>
             <p class="sample-text">
-                Somos un colegio de alto rendimiento con primeros lugares en la competencia <b>Cotorra de matemáticas</b> y las <b>Olimpiadas del conocimiento</b> a nivel <u>zona</u>, <u>región</u> y <u>estado</u>. Hemos obtenido premios durante ciclos 2017 y 2018 de importante relevancia en diferentes áreas, consulta los <a href="http://www.mejoratuescuela.org/escuelas/index/15PPR7030T?fbclid=IwAR2KU_gLHl_kCx0lQLjh4KHII8w-RvruzmlDua0CLwoNBRQGGREVy2CKNK8">resultados</a> que avalan nuestros éxitos.  
+                Somos un colegio de alto rendimiento con primeros lugares en la competencia <b>Cotorra de matemáticas</b> y las <b>Olimpiadas del conocimiento</b> a nivel <u>zona</u>, <u>región</u> y <u>estado</u>. Hemos obtenido premios durante ciclos 2017, 2018 y 2019 de importante relevancia en diferentes áreas, consulta los <a href="http://www.mejoratuescuela.org/escuelas/index/15PPR7030T?fbclid=IwAR2KU_gLHl_kCx0lQLjh4KHII8w-RvruzmlDua0CLwoNBRQGGREVy2CKNK8">resultados</a> que avalan nuestros éxitos.  
             </p>
         </div>
     </section>

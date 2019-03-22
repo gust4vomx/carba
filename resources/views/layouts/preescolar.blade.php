@@ -12,7 +12,7 @@
                     <h1 class="text-white">
                         {{-- Nivel Preescolar    --}}  
                     </h1>   
-                    <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Preescolar</a></p>
+                    {{-- <p class="text-white link-nav"><a href="{{ url('/') }}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Preescolar</a></p> --}}
                 </div>  
             </div>
         </div>
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3 class="text-heading title-hero text-center">Nuestras bases</h3>      
+                    <h3 class="text-heading title-hero text-center">Nuestra Base Educativa</h3>      
                     <p>
                         Sabemos lo importante que es contar con un entorno de desarrollo agradable, por esa razón contamos con instalaciones de <b>primer nivel</b> que permiten a nuestros pequñ@s estudiantes adquirir habilidades a temprana edad a través de la convivencia, socialización, juegos y diversión. <br><br>
 
@@ -45,71 +45,71 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <a href="img/gallery/g1.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g1.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g1.jpg" alt="">     
+                                <img class="img-fluid" src="img/gallery-prees/g1.jpg" alt="">     
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-5">
-                    <a href="img/gallery/g2.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g2.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g2.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g2.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g3.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g3.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g3.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g3.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g4.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g4.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">                  
-                                <img class="img-fluid" src="img/gallery/g4.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g4.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="img/gallery/g5.jpg"  class="img-gal">
+                    <a href="img/gallery-prees/g5.jpg"  class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">                  
-                                <img class="img-fluid" src="img/gallery/g5.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g5.jpg" alt="">             
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-5">
-                    <a href="img/gallery/g6.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g6.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div class="relative">              
-                                <img class="img-fluid" src="img/gallery/g6.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g6.jpg" alt="">             
                             </div>
                         </div>
                      </a>
                 </div>
                 <div class="col-lg-7">
-                    <a href="img/gallery/g7.jpg" class="img-gal">
+                    <a href="img/gallery-prees/g7.jpg" class="img-gal">
                         <div class="single-imgs relative">      
                             <div class="overlay overlay-bg"></div>
                             <div  class="relative">                 
-                                <img class="img-fluid" src="img/gallery/g7.jpg" alt="">             
+                                <img class="img-fluid" src="img/gallery-prees/g7.jpg" alt="">             
                             </div>
                         </div>
                     </a>
@@ -119,7 +119,7 @@
     </section>
     <!-- End gallery Area -->
 
-    <!-- Start Sample Area -->
+    {{-- <!-- Logros Destacados -->
     <section class="sample-text-area">
         <div class="container">
             <div class="row">
@@ -132,7 +132,7 @@
             </div>
         </div>
     </section>
-    <!-- End Sample Area -->
+    <!-- Logros Destacados --> --}}
 
     <!-- Start Sample Area -->
     <section class="sample-text-area">

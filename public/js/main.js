@@ -283,8 +283,8 @@ $(document).ready(function() {
 
         function init() {
             var mapOptions = {
-                zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                zoom: 15,
+                center: new google.maps.LatLng(19.543290256987, -98.885579109192), // New York
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
@@ -405,9 +405,9 @@ $(document).ready(function() {
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(19.543290256987, -98.885579109192),
                 map: map,
-                title: 'Snazzy!'
+                title: 'Centro Educativo CARBA'
             });
         }
     }

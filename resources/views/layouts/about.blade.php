@@ -12,7 +12,7 @@
                     <h1 class="text-white">
                         {{-- Nosotros --}}                
                     </h1>   
-                    <p class="text-white link-nav"><a href="{{ url('/') }}}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Nosotros</a></p>
+                    {{-- <p class="text-white link-nav"><a href="{{ url('/') }}}">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Nosotros</a></p> --}}
                 </div>  
             </div>
         </div>
@@ -69,17 +69,17 @@
 
     <!-- Start info Area -->
     <section class="info-area pb-120">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="img/about-img.jpg" alt="">
                 </div>
                 <div class="col-lg-6 info-area-right">
-                    <h1>Un poco de historia</h1>
-                    <p>El Centro Educativo CARBA inicia operaciones en el año 2008 con la firme convicción de
+                    <h1 class="title-hero f-24em">Un poco de historia</h1>
+                    <p class="text-justify">El Centro Educativo CARBA inicia operaciones en el año 2008 con la firme convicción de
                     crear un ambiente adecuado para nuevas generaciones, en dónde mejoramos lo que necesita ser actualizado y conservamos las tradiciones que forman parte de nuestra esencia; cómo el orden, la disciplina y la constancia.</p>
                     <br>
-                    <p>Nuestro preescolar (semillero de generaciones exitosas) y primaria (sinónimo de
+                    <p class="text-justify">Nuestro preescolar (semillero de generaciones exitosas) y primaria (sinónimo de
                     logros académicos y personales) demuestran que se pueden tener cualidades excepcionales gracias a que la inteligencia está presente en todos los seres humanos. Sin embargo para conquistar metas y alcanzar el éxito es necesario tener disciplina, pues las acciones educativas en los primeros años se convierten en el espacio más relevante en la vida del ser humano.</p>
                 </div>
             </div>
@@ -93,7 +93,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-70 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Nuestro modelo académico</h1>
+                        <h1 class="title-hero mb-10">Nuestro modelo académico</h1>
                         <p>Se fundamenta en pilares importantes que conllevan al éxito.</p>
                     </div>
                 </div>
@@ -130,9 +130,16 @@
                     </dl>
                     <!-- accordion 2 end-->
                 </div>
-                <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
+                {{-- <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
                     <div class="overlay overlay-bg"></div>
                     <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
+                </div> --}}
+                <div class="col-md-6 justify-content-center align-items-center d-flex relative">
+                    <video controls autoplay>
+                      {{-- <source src="foo.ogg" type="video/ogg"> --}}
+                      <source src="video/carba-video.mp4" type="video/mp4">
+                      Tu navegador no implementa el elemento <code>video</code>.
+                    </video>
                 </div>
             </div>
         </div>  

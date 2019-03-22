@@ -39,7 +39,7 @@
           <div class="row">
             <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
               <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/colegiocarba"><i class="fa fa-facebook" target="_blank"></i></a></li>
               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
               {{-- <li><a href="#"><i class="fa fa-behance"></i></a></li> --}}
@@ -169,7 +169,7 @@
 Copyright &copy; <script>document.write(new Date().getFullYear());</script> Centro Educativo CARBA <i class="fa fa-code" aria-hidden="true"></i> made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://reactium.com" target="_blank">Reactium</a>
 <!-- Link back to Reactium can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-6 col-sm-12 footer-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/colegiocarba"><i class="fa fa-facebook" target="_blank"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             {{-- <a href="#"><i class="fa fa-behance"></i></a> --}}

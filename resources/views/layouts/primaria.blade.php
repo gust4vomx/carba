@@ -117,10 +117,17 @@
     <!-- Start Sample Area -->
     <section class="sample-text-area">
         <div class="container">
-            <h3 class="text-heading title-hero text-center">Logros destacados</h3>
-            <p class="sample-text">
-                Somos un colegio de alto rendimiento con primeros lugares en la competencia <b>Cotorra de matemáticas</b> y las <b>Olimpiadas del conocimiento</b> a nivel <u>zona</u>, <u>región</u> y <u>estado</u>. Hemos obtenido premios durante ciclos 2017, 2018 y 2019 de importante relevancia en diferentes áreas, consulta los <a href="http://www.mejoratuescuela.org/escuelas/index/15PPR7030T?fbclid=IwAR2KU_gLHl_kCx0lQLjh4KHII8w-RvruzmlDua0CLwoNBRQGGREVy2CKNK8">resultados</a> que avalan nuestros éxitos.  
-            </p>
+            <div class="row pt-40 pb-40">
+                <div class="col">
+                    <h3 class="text-heading title-hero text-center">Logros destacados</h3>
+                    <p class="sample-text text-justify">
+                        Somos un colegio de alto rendimiento con primeros lugares en la competencia <b>Cotorra de matemáticas</b> y las <b>Olimpiadas del conocimiento</b> a nivel <u>zona</u>, <u>región</u> y <u>estado</u>. Este 2019 conseguimos por tercera ocasión estar en el top de colegios importantes con relevancia en diferentes áreas, consulta los <a href="http://www.mejoratuescuela.org/escuelas/index/15PPR7030T?fbclid=IwAR2KU_gLHl_kCx0lQLjh4KHII8w-RvruzmlDua0CLwoNBRQGGREVy2CKNK8">resultados</a> que avalan nuestros éxitos.
+                    </p>  
+                </div>
+            </div>
+            <div class="row">
+                <img class="cotorra-bg img-fluid" src="img/cotorra-bg.jpg" alt="Campeones de Cotorra de Matemáticas">
+            </div>        
         </div>
     </section>
     <!-- End Sample Area -->
@@ -136,10 +143,10 @@
             </div>
             <div class="row text-center">
                 <div class="col-md bg-blue">
-                    <h3 class="pt-4 pb-4 p-white">Entrada 07:20 AM</h3>
+                    <h3 class="pt-4 pb-4 p-white">Entrada 07:30 AM</h3>
                 </div>
                 <div class="col-md bg-yellow">
-                    <h3 class="pt-4 pb-4 p-white">Salida 02:30 PM</h3>
+                    <h3 class="pt-4 pb-4 p-white">Salida 02:50 PM</h3>
                 </div>
             </div>
         </div>
@@ -157,10 +164,10 @@
             </div>
             <div class="row text-center">
                 <div class="col-md bg-green">
-                    <h3 class="pt-4 pb-4 p-white">Entrada 07:20 AM</h3>
+                    <h3 class="pt-4 pb-4 p-white">Entrada 07:30 AM</h3>
                 </div>
                 <div class="col-md bg-orange">
-                    <h3 class="pt-4 pb-4 p-white">Salida 03:00 PM</h3>
+                    <h3 class="pt-4 pb-4 p-white">Salida 03:10 PM</h3>
                 </div>
             </div>
         </div>

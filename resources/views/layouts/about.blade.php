@@ -20,9 +20,9 @@
     <!-- End banner Area -->    
 
     <!-- Start feature Area -->
-    <section class="feature-area pb-120">
+    <section class="pt-80 pb-80">
         <div class="container">
-            <div class="row">
+            <div class="row about-precepts">
                 <div class="col-lg-4">
                     <div class="single-feature">
                         <div class="title">
@@ -68,14 +68,14 @@
     <!-- End feature Area -->       
 
     <!-- Start info Area -->
-    <section class="info-area pb-120">
+    <section class="info-area pt-80 pb-80 mb-80 bg-green-organic text-white">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="img/about-img.jpg" alt="">
                 </div>
                 <div class="col-lg-6 info-area-right">
-                    <h1 class="title-hero f-24em">Un poco de historia</h1>
+                    <h1 class="title-hero text-white">¿Qué hacemos?</h1>
                     <p class="text-justify">El Centro Educativo CARBA inicia operaciones en el año 2008 con la firme convicción de
                     crear un ambiente adecuado para nuevas generaciones, en dónde mejoramos lo que necesita ser actualizado y conservamos las tradiciones que forman parte de nuestra esencia; cómo el orden, la disciplina y la constancia.</p>
                     <br>

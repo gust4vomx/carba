@@ -10,7 +10,7 @@
         <div class="row fullscreen d-flex align-items-center justify-content-between">
           <div class="banner-content col-lg-9 col-md-12">
             <h1 class="title-hero text-uppercase">
-              La mejor escuela <br>en Texcoco ¡para tus hijos!      
+              La mejor escuela <br>para tus hijos ¡en Texcoco!      
             </h1>
             <p class="pt-10 pb-10 p-white">
               El Centro Educativo CARBA te da la más cordial bienvenida, nos complace informarte que nuestro periodo de Inscripciones y Re-inscripciones ¡ha comenzado!
@@ -342,8 +342,8 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
             <div class="title text-center">
-              <h1 class="title-hero mb-10">Próximos eventos escolares</h1>
-              <p>Disfruta de un excelente ambiente y conoce más sobre nuestro alumnado.</p>
+              <h1 class="title-hero mb-10">Nuestros eventos escolares</h1>
+              <p>¡Ya están aquí! conoce más sobre nuestro alumnado y disfruta de un excelente ambiente.</p>
             </div>
           </div>
         </div>                
@@ -391,9 +391,9 @@
               </div>
               <div class="detials col-12 col-md-6">
                 <p>16 de Abril, 2019</p>
-                <a href="#"><h4>Certificaciones Cambridge</h4></a>
+                <a href="#"><h4>Cambridge Test</h4></a>
                 <p>
-                  Abril es el mes de las ¡certificaciones! todo nuestro alumnado a través de esta evaluación internacional respaldan sus conocimientos en el idioma inglés.
+                  Abril, el mes de las ¡certificaciones! todo nuestro alumnado a través de esta evaluación internacional avalan sus conocimientos en el idioma inglés.
                 </p>
               </div>
             </div>
@@ -405,7 +405,7 @@
                 <p>30 de Abril, 2019</p>
                 <a href="#"><h4>Día del niño</h4></a>
                 <p>
-                  Celebrar el día del niño es uno de los eventos más esperados del año, esta fecha nos llena de mucha alegría ¡No te lo puedes perder! habrá sorpresas y mucho más.
+                  Celebrar el día del niño es uno de los eventos más esperados, esta fecha nos llena de mucha alegría ¡No te lo puedes perder! habrá sorpresas y mucho más.
                 </p>
               </div>
             </div>  

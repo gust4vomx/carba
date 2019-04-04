@@ -59,11 +59,11 @@
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li><a class="bg-pink nav-link" href="{{ url('/') }}">Inicio</a></li>
-              <li><a class="bg-blue nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
-              <li><a class="bg-orange nav-link" href="{{ url('/preescolar') }}">Preescolar</a></li>
-              <li><a class="bg-purple-carba nav-link" href="{{ url('/primaria') }}">Primaria</a></li>
-              <li><a class="bg-red nav-link" href="{{ url('/inscripciones') }}">Inscripciones</a></li>
+              <li class="nav-listItem"><a class="bg-pink text-white nav-link" href="{{ url('/') }}">Inicio</a></li>
+              <li class="nav-listItem"><a class="bg-blue text-white nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
+              <li class="nav-listItem"><a class="bg-orange text-white nav-link" href="{{ url('/preescolar') }}">Preescolar</a></li>
+              <li class="nav-listItem"><a class="bg-purple-carba text-white nav-link" href="{{ url('/primaria') }}">Primaria</a></li>
+              <li class="nav-listItem"><a class="bg-red text-white nav-link" href="{{ url('/inscripciones') }}">Inscripciones</a></li>
               {{-- <li><a href="{{ url('/cursos') }}">Cursos</a></li>
               <li><a href="{{ url('/eventos') }}">Eventos</a></li>
               <li><a href="{{ url('/instalaciones') }}">Instalaciones</a></li> --}}
@@ -86,7 +86,7 @@
                   </li>                             
                 </ul>
               </li> --}}                                                     
-              <li><a class="bg-green-organic nav-link" href="{{ url('/contacto')}}">Contacto</a></li>
+              <li class="nav-listItem"><a class="bg-green-organic nav-link" href="{{ url('/contacto')}}">Contacto</a></li>
             </ul>
           </nav><!-- #nav-menu-container -->            
         </div>

@@ -114,6 +114,36 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-4">
+                    <a href="img/gallery-prees/g8.jpg" class="img-gal">
+                        <div class="single-imgs relative">      
+                            <div class="overlay overlay-bg"></div>
+                            <div  class="relative">                 
+                                <img class="img-fluid" src="img/gallery-prees/g8.jpg" alt="">             
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="img/gallery-prees/g9.jpg" class="img-gal">
+                        <div class="single-imgs relative">      
+                            <div class="overlay overlay-bg"></div>
+                            <div  class="relative">                 
+                                <img class="img-fluid" src="img/gallery-prees/g9.jpg" alt="">             
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="img/gallery-prees/g9.jpg" class="img-gal">
+                        <div class="single-imgs relative">      
+                            <div class="overlay overlay-bg"></div>
+                            <div  class="relative">                 
+                                <img class="img-fluid" src="img/gallery-prees/g9.jpg" alt="">             
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>  
     </section>

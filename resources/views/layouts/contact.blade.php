@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Conctáctanos')
+@section('title', 'Contáctanos')
 
 @section('content')
     <!-- start banner Area -->
@@ -56,21 +56,26 @@
                     </div>                                                      
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+                    <form class="form-area contact-form text-right" id="contactForm" method="POST" action="{{ url('contacto')}}">
+                        @csrf
                         <div class="row">   
                             <div class="col-lg-6 form-group">
-                                <input name="name" placeholder="Ingresa tu nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-                            
-                                <input name="email" placeholder="Ingresa tu correo" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+                                <input name="name" placeholder="Ingresa tu nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingresa tu nombre'" class="common-input mb-20 form-control" value="{{ old('name') }}" required="" type="text">
+                                {!! $errors->first('name', '<small>:message</small>') !!}
 
-                                <input name="subject" placeholder="Asunto del mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+                                <input name="email" placeholder="Ingresa tu correo" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Necesitamos tu correo electrónico'" class="common-input mb-20 form-control" required="" value="{{ old('email') }}" type="email">
+                                {!! $errors->first('email', '<small>:message</small>') !!}
+
+                                <input name="subject" placeholder="Asunto del mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingresa el asunto de tu mensaje'" class="common-input mb-20 form-control" required="" value="{{ old('subject') }}" type="text">
+                                {!! $errors->first('subject', '<small>:message</small>') !!}
                             </div>
                             <div class="col-lg-6 form-group">
-                                <textarea class="common-textarea form-control" name="message" placeholder="¿Cuáles son tus dudas?" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>               
+                                <textarea name="content" class="common-textarea form-control" placeholder="¿Cuáles son tus dudas?" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escribe tu mensaje'" required="" value="{{ old('content') }}"></textarea>
+                                {!! $errors->first('name', '<small>:message</small>') !!}               
                             </div>
                             <div class="col-lg-12">
                                 <div class="alert-msg" style="text-align: left;"></div>
-                                <button class="genric-btn primary" style="float: right;">Enviar</button>                                          
+                                <button class="genric-btn primary" style="float: right;">@lang('Send')</button>                                          
                             </div>
                         </div>
                     </form> 

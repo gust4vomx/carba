@@ -70,3 +70,5 @@ Route::get('/detalles-evento', function () {
 Route::get('/contacto', function() {
     return view('layouts.contact');
 });
+
+Route::post('contacto', 'MessagesController@store');

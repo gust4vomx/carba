@@ -39,9 +39,9 @@
           <div class="row">
             <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
               <ul>
-              <li><a href="https://www.facebook.com/colegiocarba"><i class="fa fa-facebook" target="_blank"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/colegiocarba"><i class="fab fa-facebook-square" target="_blank"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
               {{-- <li><a href="#"><i class="fa fa-behance"></i></a></li> --}}
               </ul>     
             </div>
@@ -178,6 +178,7 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> Cent
       </div>
     </footer> 
     <!-- End footer Area -->
+    <script src="https://kit.fontawesome.com/314c16c060.js"></script>
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>      

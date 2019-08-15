@@ -173,5 +173,4 @@
         </div>
     </section>
     <!-- End Sample Area -->
-
 @endsection

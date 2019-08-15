@@ -56,7 +56,7 @@
                     </div>                                                      
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-area contact-form text-right" id="contactForm" method="POST" action="{{ url('contacto')}}">
+                    <form class="form-area contact-form text-right" id="contactForm" method="POST" action="{{ url('contacto') }}">
                         @csrf
                         <div class="row">   
                             <div class="col-lg-6 form-group">
@@ -75,7 +75,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="alert-msg" style="text-align: left;"></div>
-                                <button class="genric-btn primary" style="float: right;">@lang('Send')</button>                                          
+                                <button class="genric-btn primary" style="float: right;">@lang('Send')</button>
                             </div>
                         </div>
                     </form> 

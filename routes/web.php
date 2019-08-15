@@ -72,3 +72,5 @@ Route::get('/contacto', function() {
 });
 
 Route::post('contacto', 'MessagesController@store');
+
+Route::resource('/vue', 'DemoController');

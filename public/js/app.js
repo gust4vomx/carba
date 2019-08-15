@@ -1713,6 +1713,210 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37022,17 +37226,378 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card card-default" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
+    return _c("div", { staticClass: "wrapper" }, [
+      _c("div", { staticClass: "card" }, [
+        _c("input", {
+          staticClass: "more",
+          attrs: { type: "checkbox", id: "card1", "aria-hidden": "true" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c(
+            "div",
+            {
+              staticClass: "front",
+              staticStyle: {
+                "background-image":
+                  "url('https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=1350&q=80')"
+              }
+            },
+            [
+              _c("div", { staticClass: "inner" }, [
+                _c("h2", [_vm._v("Cozy apartment")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "rating" }, [
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "far fa-star" })
+                ]),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "button",
+                    attrs: { for: "card1", "aria-hidden": "true" }
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Details\n                    "
+                    )
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "back" }, [
+            _c("div", { staticClass: "inner" }, [
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("5")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-users" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("people")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("4")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-door-open" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("rooms")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("3")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bed" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("beds")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("1")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bath" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("bath")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "description" }, [
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, accusamus."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum nostrum ipsam\n                            ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis\n                            tenetur nemo amet temporibus, enim soluta nam, debitis."
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "location" }, [
+                _vm._v("Warsaw, Poland")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "price" }, [_vm._v("38€ / day")]),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "button return",
+                  attrs: { for: "card1", "aria-hidden": "true" }
+                },
+                [_c("i", { staticClass: "fas fa-arrow-left" })]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("input", {
+          staticClass: "more",
+          attrs: { type: "checkbox", id: "card2" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c(
+            "div",
+            {
+              staticClass: "front",
+              staticStyle: {
+                "background-image":
+                  "url('https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c02fb96f9cfc16d3649835b75d1b2033&auto=format&fit=crop&w=1350&q=80')"
+              }
+            },
+            [
+              _c("div", { staticClass: "inner" }, [
+                _c("h2", [_vm._v("Modern flat")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "rating" }, [
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star-half-alt" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "far fa-star" })
+                ]),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "button",
+                    attrs: { for: "card2", "aria-hidden": "true" }
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Details\n                    "
+                    )
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "back" }, [
+            _c("div", { staticClass: "inner" }, [
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("4")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-users" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("people")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("3")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-door-open" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("rooms")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("2")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bed" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("beds")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("1")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bath" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("bath")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "description" }, [
+                _c("p", [
+                  _vm._v(
+                    "\n                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem unde ea voluptas\n                            fuga\n                            odio vel veniam eveniet, explicabo autem earum?"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [_vm._v("Lorem ipsum dolor sit amet.")]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Lorem ipsum dolor sit amet consectetur.")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Lorem ipsum dolor sit amet.")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "location" }, [
+                _vm._v("Warsaw, Poland")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "price" }, [_vm._v("42€ / day")]),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "button return",
+                  attrs: { for: "card2", "aria-hidden": "true" }
+                },
+                [_c("i", { staticClass: "fas fa-arrow-left" })]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("input", {
+          staticClass: "more",
+          attrs: { type: "checkbox", id: "card3" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c(
+            "div",
+            {
+              staticClass: "front",
+              staticStyle: {
+                "background-image":
+                  "url('https://images.unsplash.com/photo-1529595354331-201ad3ae5e71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6114533e2d0c1c81534fe13611dbfd76&auto=format&fit=crop&w=658&q=80')"
+              }
+            },
+            [
+              _c("div", { staticClass: "inner" }, [
+                _c("h2", [_vm._v("Luxury property")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "rating" }, [
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" }),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fas fa-star" })
+                ]),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "button",
+                    attrs: { for: "card3", "aria-hidden": "true" }
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Details\n                    "
+                    )
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "back" }, [
+            _c("div", { staticClass: "inner" }, [
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("8")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-users" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("people")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("7")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-door-open" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("rooms")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("5")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bed" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("beds")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "info" }, [
+                _c("span", [_vm._v("2")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "icon" }, [
+                  _c("i", { staticClass: "fas fa-bath" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("baths")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "description" }, [
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero\n                            totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,\n                            temporibus tempore illo natus voluptates aliquam ipsum officia quasi placeat aut\n                            facilis\n                            laudantium nam!"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,\n                            repudiandae\n                            aspernatur explicabo numquam! Tenetur!"
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "location" }, [
+                _vm._v("Cracow, Poland")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "price" }, [_vm._v("60€ / day")]),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "button return",
+                  attrs: { for: "card3", "aria-hidden": "true" }
+                },
+                [_c("i", { staticClass: "fas fa-arrow-left" })]
               )
             ])
           ])
